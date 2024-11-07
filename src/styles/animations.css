@@ -1,0 +1,83 @@
+.fade-in {
+	animation: fade-in 0.4s ease-in-out forwards;
+}
+.fade-out {
+	animation: fade-out 0.4s ease-in-out forwards;
+}
+.scale-in {
+	animation: scale-in 0.4s ease-in-out forwards;
+}
+.scale-out {
+	animation: scale-out 0.4s ease-in-out forwards;
+}
+.left-in {
+	animation: left-in 0.4s ease-in-out forwards;
+}
+.left-out {
+	animation: left-out 0.4s ease-in-out forwards;
+}
+
+/*** *************************** ***/
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fade-out {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+/*** *************************** ***/
+
+@keyframes scale-in {
+	from {
+		transform: scale(0.8);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+@keyframes scale-out {
+	from {
+		transform: scale(1);
+		opacity: 1;
+	}
+	to {
+		transform: scale(0.8);
+		opacity: 0;
+	}
+}
+
+/*** *************************** ***/
+
+@keyframes left-in {
+	from {
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+@keyframes left-out {
+	from {
+		transform: translateX(0);
+		opacity: 1;
+	}
+	to {
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+}

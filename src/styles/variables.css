@@ -1,0 +1,58 @@
+:root {
+	--base: min(0.95vw, 1rem);
+	@media (max-width: 720px) {
+		--base: min(2.75vw, 1rem);
+	}
+}
+
+/*** *** *** *** *** *** *** ***/
+
+:root {
+	--family-1: 'Nunito', sans-serif;
+	--family-2: 'Namdhinggo', serif;
+	--family-3: Consolas, 'Andale Mono', Courier, 'Courier New', monospace;
+}
+
+/*** *** *** *** *** *** *** ***/
+
+:root {
+	--slow: 0.5s ease-in-out;
+	--fast: 0.25s ease-in-out;
+}
+
+/*** *** *** *** *** *** *** ***/
+
+:root {
+	--shadow-1: rgba(46, 46, 51, 0.25) 0px 0.5rem 1.5rem 0px;
+	--shadow-2: rgba(21, 21, 22, 0.25) 0px 0.5rem 1.5rem 0px;
+
+	--radius-1: var(--sm);
+}
+
+/*** *** *** *** *** *** *** ***/
+
+:root {
+	--color-bg-1: #fbfcfb;
+	--color-bg-2: #eceeec;
+
+	--color-text: #181818;
+	--color-text-light: #767776;
+	--color-placeholder: #a5a7a5;
+
+	--color-border: rgba(0, 0, 0, 0.1);
+
+	--color-1: #c73e1d;
+	--color-2: #2f352b;
+	--color-3: #1a1a1a;
+}
+
+/*** *** *** *** *** *** *** ***/
+
+:root {
+	--z-hide: -1;
+	--z-map: 1;
+	--z-header: 3;
+	--z-loading: 9;
+	--z-modal: 10;
+	--z-debug: 15;
+}

@@ -1,2 +1,34 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import { goto } from '$app/navigation'
+	import Section from '$lib/containers/Section.svelte'
+</script>
+
+<Section BgColor="var(--color-1)">
+	<h1>Welcome to SvelteKit</h1>
+	<button on:click={() => goto('/test')}>Click</button>
+</Section>
+
+<Section BgColor="var(--color-1)">
+	<h1>Welcome to SvelteKit</h1>
+	<button on:click={() => goto('/test')}>Click</button>
+</Section>
+
+<Section BgColor="var(--color-1)">
+	<h1>Welcome to SvelteKit</h1>
+	<button on:click={() => goto('/test')}>Click</button>
+</Section>
+
+<Section BgColor="var(--color-1)">
+	<h1>Welcome to SvelteKit</h1>
+	<button on:click={() => goto('/test')}>Click</button>
+</Section>
+
+<Section BgColor="var(--color-1)">
+	<h1>Welcome to SvelteKit</h1>
+	<button on:click={() => goto('/test')}>Click</button>
+</Section>
+
+<Section BgColor="var(--color-1)">
+	<h1>Welcome to SvelteKit</h1>
+	<button on:click={() => goto('/test')}>Click</button>
+</Section>
